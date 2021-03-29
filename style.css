@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: rgb(236,134,69);
+    background: linear-gradient(50deg, rgba(236,134,69,1) 33%, rgba(239,72,67,1) 65%);
+    height: 100vh;
+}
+header h1{
+    color: white;
+    font-family: sans-serif;
+}
+header{
+    text-align: center;
+    padding: 10px 15px;
+    margin: auto;
+}
+.container{
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.todo-btn{
+    background-color:rgb(236,134,69) ;
+    color: whitesmoke;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+}
+input[type = text]{
+    padding: 10px;
+    width: 400px;
+}
+.todo-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-item{
+    margin: 0.5rem;
+    color: black;
+    list-style-type: none;
+    padding: 0.5rem 1.5rem ;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 30%;
+  
+
+}
+.trash-btn{
+    padding: 0.5rem;
+    background-color:rgb(236,134,69);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    margin: 0.5rem;
+    
+}
+.fa-trash{
+    pointer-events: none;
+}
